@@ -1,0 +1,13 @@
+train: D:/Camp/PYTHON/Citra_Fruit_Detection/dataset/train/images
+val: D:/Camp/PYTHON/Citra_Fruit_Detection/dataset/valid/images
+test: D:/Camp/PYTHON/Citra_Fruit_Detection/dataset/test/images
+
+nc: 3
+names: ['Apel', 'Pepaya', 'Pisang']   
+
+roboflow:
+  workspace: tes-jxnfj
+  project: fruit-detection-42odt
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tes-jxnfj/fruit-detection-42odt/dataset/5
