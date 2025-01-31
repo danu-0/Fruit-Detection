@@ -61,20 +61,6 @@
     <h3>Akses di Browser</h3>
     <p>Setelah server berjalan, buka URL lokal di browser:</p>
     <pre><code>http://127.0.0.1:5000</code></pre>
-    
-    <h2>Struktur Proyek</h2>
-    <pre><code>.
-├── dataset/                  # Dataset untuk training
-├── runs/                      # Model hasil training YOLOv8
-│   ├── detect/
-│   └── train3/
-│       └── weights/
-│           ├── best.pt       # Model terbaik hasil training
-├── templates/
-│   └── index.html            # Tampilan web UI
-├── test.py                    # Script utama untuk Flask dan YOLOv8
-├── requirements.txt           # Daftar dependencies
-└── README.html                # Dokumentasi dalam format HTML</code></pre>
 </body>
 </html>
 
